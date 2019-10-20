@@ -10,6 +10,10 @@ body {
 	min-width: 960px;
 	padding: 0;
 }
+.homeHeader {
+	margin: 45px auto 0;
+	width: 960px;
+}
 
 a, img {
 	outline: none;
@@ -340,8 +344,8 @@ p a, span a {
 }
 
 #content div ul li img {
-	background: #B0D963;
-	border: 1px solid #E1FF83;
+	background: red;
+	border: 1px solid #343434;
 	float: none;
     margin: 0;
     padding: 10px;
@@ -640,8 +644,12 @@ p a, span a {
     height: auto;
     margin: 0;
 }
+.homePictures {
+    width: 281px;
+    height: 187px;
+}
 
-#footer {
+#footer {https://www.facebook.com/gymnastics.cary.nc/
 	background: #f5ffda;
 	border-top: 1px solid #bfcb9b;
 	margin-top: 100px;
@@ -722,4 +730,10 @@ p a, span a {
 	color: #98A780;
 	padding-top: 5px;
 	text-align: right;
+}
+
+.mypicture {
+	width: 100%;
+	height:10%;
+
 }
