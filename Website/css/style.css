@@ -1,7 +1,14 @@
 /* Website template by freewebsitetemplates.com */
 
-body { 
-	background: #ffffff url(../images/bg-body.jpg) repeat-x; 
+body {
+	background: -moz-linear-gradient( bottom right, #faf2f2, #faf2f2);
+	background: -o-linear-gradient(bottom right, #faf2f2, #faf2f2);
+	background: -webkit-linear-gradient(left top, #faf2f2, #faf2f2);
+	background: linear-gradient(to bottom right, #faf2f2, #faf2f2);
+
+
+
+	background-attachment:fixed;
 	color: #474747;
 	font-family: Arial, Verdana, Helvetica, sans-serif; 
 	font-size: 14px; 
@@ -68,10 +75,10 @@ p a, span a {
 }
 
 #header ul li a:hover {
-	color: #AD0B87;
+	color: red;
 }
 
-#header ul li.current a {
+/*#header ul li.current a {
 	background: url(../images/menu-right-hover.gif) no-repeat top right;
 }
 
@@ -79,7 +86,7 @@ p a, span a {
 	background: url(../images/menu-left-hover.gif) no-repeat top left;
 	color: #facdec;
 }
-
+*/
 #header span#background { 
 	background: url(../images/green-bar.gif) repeat-x;
 	display: block;
@@ -149,7 +156,7 @@ p a, span a {
 }
 
 #header div#home div#featured h1 {
-	color: #af0083;
+	color: red;
 	font-size: 38px;
 	font-weight: bold;
 	line-height: 50px;
@@ -181,8 +188,8 @@ p a, span a {
 }
 
 #header div#home div#featured ul li img {
-	background: #B0D963;
-	border: 1px solid #e1ff83;
+	background: #343434;
+	border: 1px solid black;
 	margin: 0;
 	padding: 10px;
 }
@@ -273,7 +280,7 @@ p a, span a {
 }
 
 #content ul li h3 a span {
-	color: #a80676;
+	color: black;
 	font-weight: bold;
 }
 
@@ -325,7 +332,7 @@ p a, span a {
 }
 
 #content div ul li a {
-	border: 1px solid #9db061;
+	border: 0.5px solid red;
 	float: left;
 	height: 209px;
 	margin-right: 20px;
@@ -364,7 +371,7 @@ p a, span a {
 }
 
 #content div ul li div h3 a {
-	color: #AE2694;
+	color: red;
 	display: block;
 }
 
@@ -459,7 +466,7 @@ p a, span a {
 }
 
 #content div a {
-	border: 1px solid #9db061;
+	border: 0,5px solid #9db061;
 	display: block;
     height: 352px;
     width: 922px;
@@ -475,7 +482,7 @@ p a, span a {
 }
 
 #content div a img {
-	background: #B0D963;
+	background: none;
 	border: 1px solid #E1FF83;
     float: none;
     margin: 0;
@@ -623,7 +630,7 @@ p a, span a {
 }
 
 #content div div div.sidebar ul li span {
-	color: #C8FFB6;
+	color:red;
     display: block;
     float: none;
     margin: 0;
@@ -647,11 +654,12 @@ p a, span a {
 .homePictures {
     width: 281px;
     height: 187px;
+
 }
 
 #footer {https://www.facebook.com/gymnastics.cary.nc/
-	background: #f5ffda;
-	border-top: 1px solid #bfcb9b;
+	background: blue;
+	border-top: 1px solid black;
 	margin-top: 100px;
 }
 
@@ -674,7 +682,7 @@ p a, span a {
 }
 
 #footer div div#connect span {
-	color: #a8b78c;
+	color: black;
 	float: left;
     font-size: 18px;
 	margin-right: 23px;
@@ -704,7 +712,7 @@ p a, span a {
 }
 
 #footer div div.section ul li {
-	border-left: 1px solid #98a780;
+	border-left: 1px solid black;
 	float: left;
 	padding: 0 7px;
 }
@@ -714,7 +722,7 @@ p a, span a {
 }
 
 #footer div div.section ul li a {
-	color: #98A780;
+	color: black;
     display: block;
     height: 13px;
     line-height: 11px;
@@ -723,11 +731,11 @@ p a, span a {
 
 #footer div div.section ul li.selected a, 
 #footer div div.section ul li a:hover {
-	color: #627146;
+	color: blue;
 }
 
 #footer div div.section p {
-	color: #98A780;
+	color: black;
 	padding-top: 5px;
 	text-align: right;
 }
